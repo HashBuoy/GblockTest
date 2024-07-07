@@ -12,6 +12,28 @@ public class GblockTest : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		PrivateDependencyModuleNames.AddRange(new string[] {
+			// AI/MassAI Plugin Modules
+			"MassAIBehavior",
+			"MassAIDebug",
+
+			// Runtime/MassEntity Plugin Modules
+			"MassEntity",
+
+			// Runtime/MassGameplay Plugin Modules
+			"MassActors",
+			"MassCommon",
+			"MassGameplayDebug",
+			"MassLOD",
+			"MassMovement",
+			"MassNavigation",
+			"MassRepresentation",
+			"MassReplication",
+			"MassSpawner",
+			"MassSimulation",
+			"MassSignals",
+		});
+		
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
